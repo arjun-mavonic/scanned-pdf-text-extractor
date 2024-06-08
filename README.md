@@ -1,5 +1,17 @@
+---
+title: Scanned Pdf Text Extractor
+emoji: 🐨
+colorFrom: yellow
+colorTo: gray
+sdk: streamlit
+sdk_version: 1.35.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # Scanned PDF Text Extrater 
-# PDF to Docx Converter (non readable pdf, scanned document pdfs)
+## PDF to Docx Converter (non readable pdf, scanned document pdfs)
 
 This is a Python application that converts non-readable PDF files, such as scanned documents, into readable Word documents. It achieves this by first converting the PDF files into images and then extracting the text from the images to create the Word documents. The application provides a user-friendly interface where you can upload PDF files, select the files you want to convert, and initiate the conversion process. Once the conversion is completed, the converted Word documents can be downloaded from the application.
 
@@ -62,16 +74,3 @@ This is a Python application that converts non-readable PDF files, such as scann
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
----
-title: Scanned Pdf Text Extractor
-emoji: 🐨
-colorFrom: yellow
-colorTo: gray
-sdk: streamlit
-sdk_version: 1.35.0
-app_file: app.py
-pinned: false
-license: mit
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
