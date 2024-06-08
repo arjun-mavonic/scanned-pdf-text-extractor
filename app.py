@@ -57,7 +57,7 @@ with col1:
                 )
                 image_folder = os.path.join(current_dir, extracted_images_dir)
                 print(
-                    f'Creating {file.replace(".pdf", "")}.docx with text extracted from images in {extracted_images_dir}'
+                    f'Creating {file.replace(".pdf", "")}.docx with text extracted from images in the {extracted_images_dir}'
                 )
                 create_docx_with_text(image_folder, output_docx)
 
