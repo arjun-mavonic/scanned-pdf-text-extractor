@@ -1,5 +1,4 @@
 import os
-from pdf2image import convert_from_path
 from docx import Document
 import streamlit as st
 from utils import create_or_empty_dir, convert_pdf_to_images, create_docx_with_text
