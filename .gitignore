@@ -1,0 +1,11 @@
+uploads
+converted_docx
+extracted_images
+
+# env
+venv
+
+
+# misc 
+__pycache__
+.DS_Store
