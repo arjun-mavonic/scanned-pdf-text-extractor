@@ -16,7 +16,7 @@ st.title("Scanned PDF to Word Converter")
 
 # Add warning message
 st.warning(
-    "⚠️ IMPORTANT: This is a public demo application. Please DO NOT upload any sensitive or confidential documents. All uploaded files may be accessible to others."
+    "⚠️ Important Notice: As you use this space, please be aware that any content you upload will be publicly accessible. We want to ensure your safety and security, so we kindly ask that you avoid sharing sensitive or private information. This includes personal data, confidential documents, or anything else you wouldn't want to be publicly visible. If you have any questions or concerns, don't hesitate to reach out."
 )
 
 st.write(
