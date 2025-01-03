@@ -9,3 +9,4 @@ venv
 # misc 
 __pycache__
 .DS_Store
+.codegpt

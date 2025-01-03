@@ -12,6 +12,18 @@ converted_docx_dir = os.path.join(current_dir, "converted_docx")
 os.makedirs(converted_docx_dir, exist_ok=True)
 
 # Create a file uploader component
+st.title("Scanned PDF to Word Converter")
+
+# Add warning message
+st.warning(
+    "⚠️ IMPORTANT: This is a public demo application. Please DO NOT upload any sensitive or confidential documents. All uploaded files may be accessible to others."
+)
+
+st.write(
+    "Upload a scanned PDF file with images etc to convert it to an editable Word document."
+)
+
+
 uploaded_file = st.file_uploader("Upload a PDF file", type="pdf")
 
 # Check if a file was uploaded
